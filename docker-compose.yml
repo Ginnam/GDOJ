@@ -100,7 +100,6 @@ services:
      - "8080:80"
     restart: always
     volumes:
-      - "./Frontend/dist/img:/Frontend/dist/img"
       - "./Frontend/dist:/Frontend/dist"
   
   frontendmobile:
