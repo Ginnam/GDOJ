@@ -101,6 +101,7 @@ services:
     restart: always
     volumes:
       - "./Frontend/dist/img:/Frontend/dist/img"
+      - "./Frontend/dist:/Frontend/dist"
   
   frontendmobile:
     image: ccr.ccs.tencentyun.com/lpoj/frontendmobile
